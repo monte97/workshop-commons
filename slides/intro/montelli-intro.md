@@ -1,6 +1,8 @@
 ---
-layout: two-cols
+layout: center
 ---
+
+<div class="grid grid-cols-2 gap-8">
 
 <div class="flex flex-col items-center">
 
@@ -27,7 +29,7 @@ layout: two-cols
   </div>
 </div>
 
-::right::
+<div>
 
 <div class="pl-8">
 
@@ -50,4 +52,6 @@ C# • Python • GO • Java • Docker • Kubernetes • Kafka
 
 </div>
 
----
+</div>
+
+</div>
