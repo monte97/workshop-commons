@@ -40,16 +40,19 @@
 /* Utility: Grid layouts */
 .grid-cols-2 {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 2rem;
-  align-items: start;
+  grid-template-columns: repeat(2, 1fr); /* Crea 2 colonne uguali */
+  gap: 1.5rem;
 }
 
 .grid-cols-3 {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr); /* Crea 3 colonne uguali */
   gap: 1.5rem;
-  align-items: start;
+}
+
+.card {
+  padding: 1.2rem;
+  margin: 0.5rem 0;
 }
 
 /* Utility: Highlighted text */
@@ -127,3 +130,4 @@
   outline: 2px solid var(--color-primary);
   outline-offset: 2px;
 }
+
